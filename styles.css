@@ -1,0 +1,29 @@
+.game {
+    text-align: center;
+    align:center;
+  }
+  
+  .board {
+    align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+  }
+  
+  .status {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
